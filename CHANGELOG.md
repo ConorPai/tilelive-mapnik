@@ -1,5 +1,9 @@
 # tilelive-mapnik changelog
 
+## 1.0.1
+
+* Support for TileSchama Setting
+
 ## 1.0.0
 
 * Update to mapnik@3.7.0
