@@ -1,6 +1,6 @@
 {
   "name": "@conorpai/tilelive-mapnik",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./lib/mapnik_backend.js",
   "description": "Mapnik backend for tilelive",
   "url": "http://github.com/conorpai/tilelive-mapnik",
