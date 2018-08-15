@@ -1,9 +1,9 @@
 {
-  "name": "@mapbox/tilelive-mapnik",
-  "version": "1.0.0",
+  "name": "@conorpai/tilelive-mapnik",
+  "version": "1.0.1",
   "main": "./lib/mapnik_backend.js",
   "description": "Mapnik backend for tilelive",
-  "url": "http://github.com/mapbox/tilelive-mapnik",
+  "url": "http://github.com/conorpai/tilelive-mapnik",
   "keywords": [
     "map",
     "server",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mapbox/tilelive-mapnik.git"
+    "url": "git+ssh://git@github.com/conorpai/tilelive-mapnik.git"
   },
   "contributors": [
     "Tom MacWright <tmcw>",
@@ -37,5 +37,18 @@
   },
   "scripts": {
     "test": "mocha -R spec --timeout 10000"
+  },
+  "bugs": {
+    "url": "https://github.com/conorpai/tilelive-mapnik/issues"
+  },
+  "homepage": "https://github.com/conorpai/tilelive-mapnik#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "ConorPai",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
   }
 }
